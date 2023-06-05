@@ -144,6 +144,7 @@ li{
     max-width: none;
     border-right: none;
     padding: 0.5em 0.5em;
+    text-align: center;
   }
 
   .tabcontent {
@@ -151,7 +152,9 @@ li{
     max-width: none;
     width: 100%;
   }
-
+  .tabcontent h3 {
+    text-align: center;
+  }
   .display_image {
     height: 80px;
     width: 80px;
@@ -180,7 +183,7 @@ li{
   }
 
   .tablink_details {
-    padding: 10px 80px;
+    width: 100%;
   }
 
   .details {
@@ -188,6 +191,7 @@ li{
     max-width: none;
     border-right: none;
     padding: 0.5em 0.5em;
+    text-align: center;
   }
 
   .tabcontent {
@@ -195,7 +199,9 @@ li{
     max-width: none;
     width: 100%;
   }
-
+  .tabcontent h3 {
+    text-align: center;
+  }
   .display_image {
     height: 80px;
     width: 80px;
@@ -225,20 +231,6 @@ li{
     align-items: center;
     border-bottom: none;
     margin-bottom: 1em;
-  }
-
-  .tablink {
-    padding: 10px 15px;
-    font-size: 14px;
-  }
-
-  .tablink_details {
-    padding: 10px 40px;
-    font-size: 14px;
-  }
-
-  .details {
-    padding: 0.5em 1em;
   }
 
   .tabcontent {
