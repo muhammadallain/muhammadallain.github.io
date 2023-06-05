@@ -116,6 +116,9 @@ li{
   .main-body {
     flex-direction: column;
   }
+  .main{
+    flex-direction: column;
+  }
   .header-box p {
     font-size: medium;
   }
