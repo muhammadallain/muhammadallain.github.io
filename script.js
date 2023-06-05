@@ -13,5 +13,5 @@ function openTab(event, tabName) {
   }
   
   // Set the first tab as active by default
-  document.getElementsByClassName("tablink")[0].click();
+  document.getElementsByClassName("tablink")[1].click();
   
