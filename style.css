@@ -21,6 +21,9 @@ a{
     cursor: pointer;
     color: inherit;
 }
+video a{
+    color: blue;
+}
 .header{
     display: flex;
     flex-direction: column;
