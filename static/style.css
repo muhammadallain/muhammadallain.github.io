@@ -48,13 +48,22 @@ header{
   align-items: center;
 }
 .banner{
+  margin: 0em 10em;
+}
+.banner h2{
   text-align: center; 
   margin-bottom: 1em; 
   background-color: #ddd; 
   padding: 10em;
 }
+.service_banner{
+  margin: 1em 10em;
+}
 .service{
   text-align: center;
+}
+.service_box{
+  display: flex;
 }
 .service h2{
   margin: 1em 1em; 
@@ -143,4 +152,83 @@ footer h2{
   border: solid; 
   border-radius: 1em; 
   margin-top: 1em;
+}
+/* Mobile styles */
+@media screen and (max-width: 599px) {
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner{
+    margin: 0em 0em;
+  }
+  .banner h2{
+    text-align: center; 
+    margin-bottom: 1em; 
+    background-color: #ddd; 
+    padding: 7em 0em;
+  }
+  .service_banner{
+    margin: 1em 0em;
+  }
+  .service_box{
+    display: flex;
+    flex-direction: column;
+  }
+  .services{
+    margin: 0em 0em;
+  }
+  .service_block{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about_content{
+    margin: 1em 2em; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hook{
+    text-align: center;
+  }
+  .tablink,
+  .tablink_details {
+      padding: 14px 20px;
+  }
+  .service h2,
+  .about_h h2,
+  .dashboard h2 {
+      text-align: center;
+  }
+  .services,
+  .about_content {
+      margin: 2em 0;
+  }
+  .tableauPlaceholder, .dashboard{
+    display: none;
+  }
+  .about_content p {
+      margin: 0 0 1em;
+      font-weight: 600;
+      font-size: medium;
+  }
+
+  .about_img img {
+      width: 100%;
+      margin-right: 0;
+  }
+
+  .hook button,
+  .linkedin button {
+      margin-top: 1em;
+  }
+  footer{
+    padding: 1em 1em;
+    text-align: center;
+  }
+  #hid{
+    display: none;
+  }
 }
