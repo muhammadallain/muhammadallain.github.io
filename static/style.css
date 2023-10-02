@@ -42,3 +42,105 @@ a{
 .tablink::current{
   background-color: #ddd  ;
 }
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner{
+  text-align: center; 
+  margin-bottom: 1em; 
+  background-color: #ddd; 
+  padding: 10em;
+}
+.service{
+  text-align: center;
+}
+.service h2{
+  margin: 1em 1em; 
+  padding: 1em;
+}
+.services{
+  margin: 5em 0em; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+}
+.service_block{
+  display: flex; 
+  align-items: center;
+}
+.service_block a{
+  background-color: #ddd;
+}
+.sb_img{
+  width: 120px; 
+  margin: 15px;
+}
+.about_h{
+  margin: 1em 10em; 
+  text-align: center;
+}
+.about_h h2{
+  margin-bottom: 1em; padding: 1em;
+}
+.about_content{
+  margin: 2em 15em; 
+  margin-bottom: 0em; 
+  display: flex;
+}
+.about_content p{
+  margin: 0em 5em; 
+  font-weight: 600; 
+  font-size: large;
+}
+.about_img{
+  display: flex; 
+  justify-content: right;
+}
+.about_img img{
+  width: 300px; 
+  margin-right: 1em;
+}
+.hook{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-bottom: 1em; 
+  padding: 2em;
+}
+.hook button{
+  border: solid; 
+  border-radius: 1em; 
+  margin-top: 1em;
+}
+.dashboard{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  background: #ddd; 
+  margin: 1em; 
+  padding: 2em;
+}
+.dashboard h2, .dashboard p{
+  margin-top: 1em;
+}
+footer{
+  background-color: #ddd; 
+  padding: 1em 10em;
+}
+footer h2{
+  text-align: center; 
+  margin: 1em;
+}
+.linkedin{
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 1em;
+}
+.linkedin button{
+  border: solid; 
+  border-radius: 1em; 
+  margin-top: 1em;
+}
