@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header style="display: flex; justify-content: space-around; align-items: center;">
+    <header>
         <div>
             <img src="images/signature.png" alt="logo" width="400px">
         </div>
@@ -34,13 +34,13 @@
                 <!--#####################################################################################################################-->
                 <div id="tab0" class="tabcontent">
                     <div style="margin: 0em 10em;">
-                        <h2 style="text-align: center; margin-bottom: 1em; background-color: #ddd; padding: 10em;">
+                        <h2 class="banner">
                             " I want to help others make better decisions, data-driven decisions "
                         </h2>
                     </div>
                     <div style="margin: 1em 10em;">
-                        <div style="text-align: center;">
-                            <h2 style="margin: 1em 1em; padding: 1em;" id="services">Services</h2>
+                        <div class="service">
+                            <h2 id="services">Services</h2>
                             <p>
                                 As a data analyst and data scientist, I translate data into valuable and
                                 comprehensible insights. My goal is to improve results, make the right decisions and
@@ -55,21 +55,20 @@
                             </p>
                         </div>
                         <div style="display: flex;">
-                            <div
-                                style="margin: 5em 0em; display: flex; flex-direction: column; justify-content: space-between;">
-                                <div style="display: flex; align-items: center;">
-                                    <img src="images/data_analysis.png" alt="" style="width: 120px; margin: 15px;">
+                            <div class="services">
+                                <div class="service_block">
+                                    <img src="images/data_analysis.png" alt="" class="sb_img">
                                     <div>
                                         <h3>Data Anlaysis</h3>
                                         <p>
                                             I am specialized in analyzing data. Results, trends and recommendations are
                                             clearly presented in reports or tools.
                                         </p>
-                                        <a href="" style="background-color: #ddd;">Example</a>
+                                        <a href="">Example</a>
                                     </div>
                                 </div>
-                                <div style="display: flex; align-items: center;">
-                                    <img src="images/ml.png" alt="" style="width: 120px; margin: 15px;">
+                                <div class="service_block">
+                                    <img src="images/ml.png" alt="" class="sb_img">
                                     <div>
                                         <h3>Machine Learning & AI</h3>
                                         <p>
@@ -77,14 +76,13 @@
                                             techniques, for example by predicting behavior or targeting the right
                                             customer.
                                         </p>
-                                        <a href="" style="background-color: #ddd;">Example</a>
+                                        <a href="">Example</a>
                                     </div>
                                 </div>
 
                             </div>
-                            <div
-                                style="margin: 5em 0em; display: flex; flex-direction: column; justify-content: space-between;">
-                                <div style="display: flex; align-items: center;">
+                            <div class="services">
+                                <div class="service_block">
                                     <img src="images/dashboard.png" alt="" style="width: 150px;">
                                     <div>
                                         <h3>Dashboards</h3>
@@ -93,11 +91,11 @@
                                             and
                                             drilling, you will examine trends and patterns yourself.
                                         </p>
-                                        <a href="" style="background-color: #ddd;">Example</a>
+                                        <a href="">Example</a>
                                     </div>
                                 </div>
-                                <div style="display: flex; align-items: center;">
-                                    <img src="images/cloud.png" alt="" style="width: 120px; margin: 15px;">
+                                <div class="service_block">
+                                    <img src="images/cloud.png" alt="" class="sb_img">
                                     <div>
                                         <h3>Cloud Application Development</h3>
                                         <p>
@@ -105,7 +103,7 @@
                                             applications for starters
                                             and freelancers. My websites are optimized for desktop and smartphone.
                                         </p>
-                                        <a href="" style="background-color: #ddd;">Example</a>
+                                        <a href="">Example</a>
                                     </div>
                                 </div>
                             </div>
@@ -114,48 +112,44 @@
                 </div>
                 <!--#####################################################################################################################-->
                 <div id="tab1" class="tabcontent" style="background: #ddd;">
-                    <div style="margin: 1em 10em; text-align: center;">
-                        <h2 style="margin-bottom: 1em; padding: 1em;" id="about">About Me</h2>
+                    <div class="about_h">
+                        <h2 id="about">About Me</h2>
                     </div>
-                    <div style="margin: 2em 15em; margin-bottom: 0em; display: flex;">
+                    <div class="about_content">
                         <div>
-                            <p style="margin: 0em 5em; font-weight: 600; font-size: large;">
+                            <p>
                                 Hi, my name is Muhammad and I am a Google Certified Data Analyst. I hold a Higher
                                 Diploma in Computing
                                 and Master’s degree in science (Big Data Management & Analytics, Griffith College
                                 Dublin).
                             </p><br>
-                            <p style="margin: 0em 5em; font-weight: 600; font-size: large;">
+                            <p>
                                 Since I was young, I have always enjoyed to solve puzzles. So that’s how I look at big
                                 data
                                 sets: to me it is one big puzzle I want to solve. Finding patterns nobody else sees is
                                 the
                                 challenge to me.
                             </p><br>
-                            <p style="margin: 0em 5em; font-weight: 600; font-size: large;">
+                            <p>
                                 I have been working as a data analyst for more than two years with experience in
                                 manufacturing and retail. I have worked on several projects which gives me the
                                 ability to translate complex questions into understandable insights.
                             </p><br>
-                            <p style="margin: 0em 5em; font-weight: 600; font-size: large;">
+                            <p>
                                 Do you want to work together? Please reach out to me by e-mail.
                             </p>
 
-                            <div style="display: flex; justify-content: right;">
-                                <img src="signature.png" alt="" style="width: 300px; margin-right: 1em;">
+                            <div class="about_img">
+                                <img src="signature.png" alt="">
                             </div>
                         </div>
                         <img src="images/headshot.jpg" alt="" style=" min-width: 300px;">
                     </div>
                 </div>
                 <!--#####################################################################################################################-->
-                <div
-                    style="display: flex; flex-direction: column; align-items: center; margin-bottom: 1em; padding: 2em;">
-                    <h2>
-                        " WONDERING HOW YOU CAN MAKE THE BEST DECISIONS USING YOUR DATA? "
-                    </h2>
-                    <button class="tablink" style="border: solid; border-radius: 1em; margin-top: 1em;"><a href="#contact2">GET
-                            IN TOUCH</a></button>
+                <div class="hook">
+                    <h2>" WONDERING HOW YOU CAN MAKE THE BEST DECISIONS USING YOUR DATA? "</h2>
+                    <button class="tablink"><a href="#contact2">GET IN TOUCH</a></button>
                 </div>
                 <!--#####################################################################################################################-->
                 <!--div id="tab2" class="tabcontent" style="background: #ddd;">
@@ -174,12 +168,11 @@
                 </div-->
                 <!--#####################################################################################################################-->
                 <div id="tab2" class="tabcontent">
-                    <div
-                        style="display: flex; flex-direction: column; align-items: center; background: #ddd; margin: 1em; padding: 2em;">
-                        <h2 id="portfolio" style="margin-top: 1em;">Sample - Superstore Sales Dashboard</h2>
-                        <p style="margin-top: 1em;">This is a sample dashboard that shows different KPIs, Profits by
+                    <div class="dashboard">
+                        <h2 id="portfolio">Sample - Superstore Sales Dashboard</h2>
+                        <p>This is a sample dashboard that shows different KPIs, Profits by
                             Category, Sub-Category and Regions in USA.</p>
-                        <p style="margin-top: 1em;">Feel free to play with it.</p>
+                        <p>Feel free to play with it.</p>
                     </div>
                     <div class='tableauPlaceholder' id='viz1695497290885' style='position: relative;'><noscript><a
                                 href='#'><img alt='Dashboard 1 '
@@ -262,13 +255,11 @@
                 </div-->
         </section>
     </main>
-    <footer style="background-color: #ddd; padding: 1em 10em;" id="contact2">
-        <h2 id="contact" style="text-align: center; margin: 1em;">Contact</h2>
-        <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 1em;">
-            <h3>
-                " We Can Get In Touch on LinkedIn "
-            </h3>
-            <button class="tablink" style="border: solid; border-radius: 1em; margin-top: 1em;"><a href="https://www.linkedin.com/in/muhammadallain">LinkedIn</a></button>
+    <footer id="contact2">
+        <h2 id="contact">Contact</h2>
+        <div class="linkedin">
+            <h3>" We Can Get In Touch on LinkedIn "</h3>
+            <button class="tablink"><a href="https://www.linkedin.com/in/muhammadallain">LinkedIn</a></button>
         </div>
         <hr>
         <h4 style="margin-top: 1em;"><a href="https://www.linkedin.com/in/muhammadallain">Muhammad Ali</a></h4>
