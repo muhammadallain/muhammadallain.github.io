@@ -8,77 +8,204 @@
 
     <title>Muhammad Ali Profile</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-box">
-            <h1>Muhammad Ali</h1>
-            <p>Data Scientist | Python Developer | Researcher</p>
-            <hr>
-            <div>
-                <p>Email: <a href="mailto:muhammadallain@gmail.com">muhammadallain@gmail.com</a></p>
-            </div>
+    <header style="display: flex; justify-content: space-around; align-items: center;">
+        <div>
+            <img src="images/signature.png" alt="logo" width="400px">
+        </div>
+        <div class="tabs">
+            <button class="tablink"><a href="#services">Services</a></button>
+            <button class="tablink"><a href="#about">About</a></button>
+            <button class="tablink"><a href="#portfolio">Dashboard</a></button>
+            <button class="tablink"><a href="#contact">Contact</a></button>
+            <!--button class="tablink" onclick="openTab(event, 'tab3')">Experience</button>
+            <button class="tablink" onclick="openTab(event, 'tab4')">Education</button>
+            <button class="tablink" onclick="openTab(event, 'tab5')">Dashboards</button-->
         </div>
     </header>
+
 
     <main class="main-body">
         <section class="main">
             <div>
-                <div>
-                    <div class="tabs">
-                        <button class="tablink_details">Details</button>
+                <!--#####################################################################################################################-->
+                <div id="tab0" class="tabcontent">
+                    <div style="margin: 0em 10em;">
+                        <h2 style="text-align: center; margin-bottom: 1em; background-color: #ddd; padding: 10em;">
+                            " I want to help others make better decisions, data-driven decisions "
+                        </h2>
                     </div>
-                    <div class="details">
-                        <h4>Services</h4>
-                        <hr>
-                        <p>Python Development | Machine Learning | Data Analytics | Research Analytics</p><br>
-                        <h4>Interests</h4>
-                        <hr>
-                        <p>Cloud Web Development | Finance | Health Care | Computer Vision </p><br>
-                        <h4>Future Goals</h4>
-                        <hr>
-                        <p>Azure | Kubernetes | Amazon Web Services</p><br>
-                        <h4>Contact</h4>
-                        <hr>
-                        <p>muhammadallain@gmail.com</p>
-                        <p>+353894340522</p>
-                        <hr><br>
-                        <a href="https://www.linkedin.com/in/muhammadallain/">LinkedIn</a> |
-                        <a href="https://github.com/muhammadallain">GitHub</a> |
-                        <a href="https://www.instagram.com/ali.over.here/">Instagram</a>
+                    <div style="margin: 1em 10em;">
+                        <div style="text-align: center;">
+                            <h2 style="margin: 1em 1em; padding: 1em;" id="services">Services</h2>
+                            <p>
+                                As a data analyst and data scientist, I translate data into valuable and
+                                comprehensible insights. My goal is to improve results, make the right decisions and
+                                save costs.
+                            </p><br>
+                            <p>
+                                I am experienced in machine learning, supervised and unsupervised algorithms and use
+                                data
+                                visualization techniques to present the results. I use SQL, R, Python, Spreadsheets and
+                                Tableau for
+                                my data projects.
+                            </p>
+                        </div>
+                        <div style="display: flex;">
+                            <div
+                                style="margin: 5em 0em; display: flex; flex-direction: column; justify-content: space-between;">
+                                <div style="display: flex; align-items: center;">
+                                    <img src="images/data_analysis.png" alt="" style="width: 120px; margin: 15px;">
+                                    <div>
+                                        <h3>Data Anlaysis</h3>
+                                        <p>
+                                            I am specialized in analyzing data. Results, trends and recommendations are
+                                            clearly presented in reports or tools.
+                                        </p>
+                                        <a href="" style="background-color: #ddd;">Example</a>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: center;">
+                                    <img src="images/ml.png" alt="" style="width: 120px; margin: 15px;">
+                                    <div>
+                                        <h3>Machine Learning & AI</h3>
+                                        <p>
+                                            Get more value from your data with prediction models and machine learning
+                                            techniques, for example by predicting behavior or targeting the right
+                                            customer.
+                                        </p>
+                                        <a href="" style="background-color: #ddd;">Example</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div
+                                style="margin: 5em 0em; display: flex; flex-direction: column; justify-content: space-between;">
+                                <div style="display: flex; align-items: center;">
+                                    <img src="images/dashboard.png" alt="" style="width: 150px;">
+                                    <div>
+                                        <h3>Dashboards</h3>
+                                        <p>
+                                            Dashboards show the most recent results in an interactive way. By clicking
+                                            and
+                                            drilling, you will examine trends and patterns yourself.
+                                        </p>
+                                        <a href="" style="background-color: #ddd;">Example</a>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: center;">
+                                    <img src="images/cloud.png" alt="" style="width: 120px; margin: 15px;">
+                                    <div>
+                                        <h3>Cloud Application Development</h3>
+                                        <p>
+                                            As a cloud developer, I help to design and create the perfect web
+                                            applications for starters
+                                            and freelancers. My websites are optimized for desktop and smartphone.
+                                        </p>
+                                        <a href="" style="background-color: #ddd;">Example</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <!--#####################################################################################################################-->
+                <div id="tab1" class="tabcontent" style="background: #ddd;">
+                    <div style="margin: 1em 10em; text-align: center;">
+                        <h2 style="margin-bottom: 1em; padding: 1em;" id="about">About Me</h2>
+                    </div>
+                    <div style="margin: 2em 15em; margin-bottom: 0em; display: flex;">
+                        <div>
+                            <p style="margin: 0em 5em; font-weight: 600; font-size: large;">
+                                Hi, my name is Muhammad and I am a Google Certified Data Analyst. I hold a Higher
+                                Diploma in Computing
+                                and Master’s degree in science (Big Data Management & Analytics, Griffith College
+                                Dublin).
+                            </p><br>
+                            <p style="margin: 0em 5em; font-weight: 600; font-size: large;">
+                                Since I was young, I have always enjoyed to solve puzzles. So that’s how I look at big
+                                data
+                                sets: to me it is one big puzzle I want to solve. Finding patterns nobody else sees is
+                                the
+                                challenge to me.
+                            </p><br>
+                            <p style="margin: 0em 5em; font-weight: 600; font-size: large;">
+                                I have been working as a data analyst for more than two years with experience in
+                                manufacturing and retail. I have worked on several projects which gives me the
+                                ability to translate complex questions into understandable insights.
+                            </p><br>
+                            <p style="margin: 0em 5em; font-weight: 600; font-size: large;">
+                                Do you want to work together? Please reach out to me by e-mail.
+                            </p>
 
-            <div>
-                <div class="tabs">
-                    <button class="tablink" onclick="openTab(event, 'tab1')">About</button>
-                    <button class="tablink" onclick="openTab(event, 'tab2')">Projects</button>
-                    <button class="tablink" onclick="openTab(event, 'tab3')">Experience</button>
-                    <button class="tablink" onclick="openTab(event, 'tab4')">Education</button>
-                    <button class="tablink" onclick="openTab(event, 'tab5')">Skills</button>
+                            <div style="display: flex; justify-content: right;">
+                                <img src="signature.png" alt="" style="width: 300px; margin-right: 1em;">
+                            </div>
+                        </div>
+                        <img src="images/headshot.jpg" alt="" style=" min-width: 300px;">
+                    </div>
                 </div>
-                <div id="tab1" class="tabcontent">
-                    <h3>About Me</h3>
-                    <br>
-                    <p>I am a Data Scientist, Python Developer and a Researcher - in that order.</p>
-                    <p>P.S. Analytics come as a complimentary perk.</p>
-                    <p>I have worked on several projects independently as well as in collaboration with some awesome
-                        teams.</p>
-                    <p><strong>Highlights of my work include:</strong></p>
-                    <ul>
-                        <li>Python Automations</li>
-                        <li>Large Scale Data Collection</li>
-                        <li>Deploying ML Pipelines</li>
-                        <li>Machine Learning & AI Development</li>
-                        <li>Cloud Application Development</li>
-                    </ul>
-                    <p><strong>For project collaborations... Let's get in touch.</strong></p>
+                <!--#####################################################################################################################-->
+                <div
+                    style="display: flex; flex-direction: column; align-items: center; margin-bottom: 1em; padding: 2em;">
+                    <h2>
+                        " WONDERING HOW YOU CAN MAKE THE BEST DECISIONS USING YOUR DATA? "
+                    </h2>
+                    <button class="tablink" style="border: solid; border-radius: 1em; margin-top: 1em;"><a href="#contact2">GET
+                            IN TOUCH</a></button>
                 </div>
-
+                <!--#####################################################################################################################-->
+                <!--div id="tab2" class="tabcontent" style="background: #ddd;">
+                    <div style="margin: 1em 10em; text-align: center;">
+                        <h2 style="margin-bottom: 1em; padding: 1em;" id="portfolio">Portfolio</h2>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin: 1em 10em;">
+                        <div style="width: 200px; text-align: center;">
+                            <img src="dashboard.jpg" alt="" style="display: block; width: 100%; height: auto;">
+                            <h3>Dashboards</h3>
+                        </div>
+                        <div style="border: solid;"></div>
+                        <div style="border: solid;"></div>
+                        <div style="border: solid;"></div>
+                    </div>
+                </div-->
+                <!--#####################################################################################################################-->
                 <div id="tab2" class="tabcontent">
+                    <div
+                        style="display: flex; flex-direction: column; align-items: center; background: #ddd; margin: 1em; padding: 2em;">
+                        <h2 id="portfolio" style="margin-top: 1em;">Sample - Superstore Sales Dashboard</h2>
+                        <p style="margin-top: 1em;">This is a sample dashboard that shows different KPIs, Profits by
+                            Category, Sub-Category and Regions in USA.</p>
+                        <p style="margin-top: 1em;">Feel free to play with it.</p>
+                    </div>
+                    <div class='tableauPlaceholder' id='viz1695497290885' style='position: relative;'><noscript><a
+                                href='#'><img alt='Dashboard 1 '
+                                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Su&#47;SuperstoreSales_16950961769760&#47;Dashboard1&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz'
+                            style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='SuperstoreSales_16950961769760&#47;Dashboard1' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image'
+                                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Su&#47;SuperstoreSales_16950961769760&#47;Dashboard1&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en-US' />
+                        </object></div>
+                    <script
+                        type='text/javascript'>                    var divElement = document.getElementById('viz1695497290885'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.57) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    </div-->
+                    <!--#####################################################################################################################-->
+                    <!--div id="tab2" class="tabcontent">
                     <h3>Projects</h3>
                     <br>
 
@@ -132,268 +259,29 @@
                         </div>
                         <hr>
                     </div>
-                    <div>
-                        <h4>Bank's Term Deposit | Tableau | Exploratory Data Analysis</h4>
-                        <hr>
-                        <p>This project is based on Tableau dashboards to perform an EDA of a Banks Term Deposit
-                            Customers</p>
-                        <p>See the full the details of this project <a
-                                href="https://github.com/muhammadallain/bank_customers_tableau_dashboards">Here</a></p>
-                        <div class="slideshow-container">
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 1.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 2.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 3.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 4.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 5.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 7.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 8.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 9.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 10.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 11.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 14.jpg" alt="Image 1">
-                            </div>
-                            <div class="slide">
-                                <img src="tableau_bcd/Dashboard 09.jpg" alt="Image 1">
-                            </div>
-
-                            <!-- Previous and Next buttons -->
-                            <a class="prev" onclick="prevSlide()">&#10094;</a>
-                            <a class="next" onclick="nextSlide()">&#10095;</a>
-                        </div>
-                        <hr>
-                    </div>
-
-                    <p>More Content Coming Soon... Check the skills instead they are good too</p>
-
-                </div>
-
-                <div id="tab3" class="tabcontent">
-                    <h3>Experience</h3>
-                    <br>
-                    <h4>Machine Learning & Python Developer | September 2021 - Present</h4>
-                    <hr>
-                    <ul>
-                        <li>
-                            <strong>Cloud Application Development:</strong> Developing cloud based data driven
-                            applications, Google Cloud
-                            Platform, Google App Engine, Flask, Firebase Authentication, Firebase datastore
-                            integrations. SQL, NoSql.
-                        </li>
-                        <li>
-                            <strong>Python Automations:</strong> deploying scripts to automate processes, Deploying
-                            automation bots for
-                            Video & Audio Scraping, Splitting, Editing, Mixing, API integrations, Data Creation, Social
-                            Media Signin’s, Automated social media uploads & postings, automated proxy management for
-                            security bypass, setting up virtual machines, debugging.
-                        </li>
-                        <li>
-                            <strong>ML Development</strong>Developed and implemented custom machine learning models
-                            using Python, delivering accurate
-                            predictions and insights for clients in diverse industries, including healthcare, finance,
-                            and computer vision.
-                        </li>
-                        <li>
-                            <strong>Client Collaboration</strong>Collaborated with clients to understand their specific
-                            business objectives and translated
-                            them into actionable requirements, resulting in the successful completion of multiple
-                            data-driven projects on time and within budget.
-                        </li>
-                        <li>
-                            <strong>Performance Improvements</strong>Utilized Python libraries, such as scikit-learn and
-                            TensorFlow, to pre-process and analyse
-                            large datasets, extracting meaningful features and improving model accuracies up to 92.57%.
-                        </li>
-                        <li>
-                            <strong>ML Pipelines</strong>Designed and deployed end-to-end machine learning pipelines,
-                            encompassing data collection,
-                            cleaning, feature engineering, model training, and deployment, streamlining processes and
-                            enhancing efficiency.
-                        </li>
-                        <li>
-                            <strong>Presenting Results</strong>Communicated complex technical concepts to non-technical
-                            stakeholders through clear and
-                            concise documentation and presentations, facilitating their understanding and enabling
-                            informed decision-making.
-                        </li>
-                    </ul>
-                    <br>
-                    <h4>Data Science Intern @ Orcawise | July 2022 - October 2022</h4>
-                    <hr>
-                    <ul>
-                        <li>
-                            Developed, implemented, and monitored efficient data collection systems from a variety of
-                            social media channels working with unstructured and semi structured data.
-                        </li>
-                        <li>
-                            Performed filtering, cleaning, organization & validation of data using python, R and
-                            advanced spreadsheet functions to ensure data integrity, accuracy, and usability.
-                        </li>
-                        <li>
-                            Simplified and automated python scripts, improving operational efficiency, scalability,
-                            and compatibility of data coming from variety of sources
-                        </li>
-                        <li>
-                            Developed dashboards & visualisations turning data into actionable insights to support
-                            business decision making.
-                        </li>
-                        <li>
-                            Maintained changelogs, developed reports, and documented scripts and work efforts to promote
-                            work transparency within the team.
-                        </li>
-                    </ul>
-                    <br>
-                    <h4>Assistant Manager @ Jans Retail | January 2018 - February 2020</h4>
-                    <hr>
-                    <ul>
-                        <li>
-                            Working under the Manager, successfully lead a team of 12, achieving sales targets, and
-                            fostering a positive work environment.
-                        </li>
-                        <li>
-                            Provided comprehensive training and mentorship to new employees, facilitating their
-                            successful onboarding and professional growth.
-                        </li>
-                        <li>
-                            Implemented efficient ordering and stocking procedures, resulting in streamlined
-                            operations and improved inventory management.
-                        </li>
-                        <li>
-                            Developed new ways of analysing stock, inventory, sales, and merchandising data using
-                            spreadsheets and advanced formulas.
-                        </li>
-                        <li>
-                            Collaborated on promotional campaigns and pricing strategies to increase sales and profit
-                            margins, driving business growth.
-                        </li>
-                    </ul>
-                    <br>
-                    <h4>Data Analyst Team Lead | Adidas Distribution @ LEATHER FIELD (PVT) LTD | September 2015 - August
-                        2017</h4>
-                    <hr>
-                    <ul>
-                        <li>
-                            Worked with stakeholders, data manager and cross-functional department heads to prioritise
-                            business and information needs.
-                        </li>
-                        <li>
-                            Working under Data Manager, liaised with HR and formed a team of 10 for data collection of
-                            distributors, wholesalers, and retailers of sports goods throughout 50 states of USA.
-                        </li>
-                        <li>
-                            Defined SOPs, processes, policies & procedures to manage changelogs, schemas, backups,
-                            naming conventions & access control to maintain data integrity, validation, and
-                            organization.
-                        </li>
-                        <li>
-                            Assisted in the creation of data visualisations, turning raw data into understandable and
-                            actionable reports for both external and internal stakeholders.
-                        </li>
-                        <li>
-                            Assisted in interpreting data, analysing results and providing ongoing reports to the
-                            manager and stakeholders.
-                        </li>
-                        <li>
-                            Documented progress, changes, setbacks, suggestions, and modifications and prepared
-                            insightful reports on team performance.
-                        </li>
-                    </ul>
-                </div>
-
-                <div id="tab4" class="tabcontent">
-                    <h3>Education</h3>
-                    <br>
-                    <h4>MSC Big Data Management & Analytics</h4>
-                    <p>Griffith College Dublin | February 2022 - June 2023</p>
-                    <hr>
-                    <br>
-                    <h4>Higher Diploma in Computing</h4>
-                    <p>Griffith College Dublin | February 2021 - February 2022</p>
-                    <hr>
-                    <br>
-                    <h4>MBA Project Management</h4>
-                    <p>Dublin Business School | September 2017 - June 2018</p>
-                    <hr>
-                    <br>
-                    <h4>BBA Hons. Marketing & Media Studies</h4>
-                    <p>Lahore School of Economics | September 2010 - April 2015</p>
-                    <hr>
-                </div>
-
-                <div id="tab5" class="tabcontent">
-                    <h3>Skills</h3>
-                    <br>
-                    <ul>
-                        <li>
-                            <strong>Large scale data collection:</strong> deploying web scrappers, automating permission
-                            checks,
-                            scrapping large scale data from web sources, Automating data storage procedures, Image &
-                            Video scrapping, Blobs, Unstructured data, Structured Data, Social media data, Facebook,
-                            Instagram, YouTube, Twitter, TikTok.
-                        </li>
-                        <li>
-                            <strong>Deploying Large Scale ML pipelines:</strong> Managing large scale data, deploying
-                            scalable, fault
-                            tolerant, distributed and low latency pipelines, creation of datasets, Preparing backups,
-                            Data wrangling, Automating Data Cleaning, Automating Backups, Feature engineering, Knowledge
-                            Graphs, Feature encoding, Data Transformations, Data Augmentations, Normalisation,
-                            Denormalisation, Exploratory Data Analysis, Creating, Managing and Maintaining Dashboards.
-                        </li>
-                        <li>
-                            <strong>Machine Learning & AI development:</strong> Research & Development, Developing
-                            Models from Scratch,
-                            Modifying pre-trained models, Hyper-parameter tunings, Transfer Learning, Deep Learning,
-                            CNNs, Decision Trees, Random Forest, Computer Vision, Object Detection, Face Detection,
-                            Emotion Detection, Sentiment Analysis, Generative Adversarial Networks GANs, model
-                            evaluations, confusion matrices, cross validations, MSE, RMSE, Precision, Recall, F1 scores,
-                            accuracies
-                        </li>
-                        <li>
-                            <strong>Cloud Application Development:</strong> Developing cloud based data driven
-                            applications, Google Cloud
-                            Platform, Google App Engine, Flask, Firebase Authentication, Firebase datastore
-                            integrations. SQL, NoSql.
-                        </li>
-                        <li>
-                            <strong>Python Automations:</strong> Deploying scripts to automate processes, Deploying
-                            automation bots for
-                            Video & Audio Scraping, Splitting, Editing, Mixing, API integrations, Data Creation, Social
-                            Media Signin’s, Automated social media uploads & postings, debugging.
-                        </li>
-                    </ul>
-                    <br>
-                    <p>
-                        <strong>Python | R | JAVA | HTML & CSS | SQL | Tableau | MS Excel | Google Cloud Platform |
-                            Google App Engine | Machine Learning | Keras | Linux | Hadoop | Cassandra | Apache
-                            Spark</strong>
-                    </p>
-                </div>
-            </div>
-
+                </div-->
         </section>
     </main>
+    <footer style="background-color: #ddd; padding: 1em 10em;" id="contact2">
+        <h2 id="contact" style="text-align: center; margin: 1em;">Contact</h2>
+        <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 1em;">
+            <h3>
+                " We Can Get In Touch on LinkedIn "
+            </h3>
+            <button class="tablink" style="border: solid; border-radius: 1em; margin-top: 1em;"><a href="https://www.linkedin.com/in/muhammadallain">LinkedIn</a></button>
+        </div>
+        <hr>
+        <h4 style="margin-top: 1em;"><a href="https://www.linkedin.com/in/muhammadallain">Muhammad Ali</a></h4>
+        <a href="mailto:muhammadallain@gmail.com">muhammadallain@gmail.com</a>
+        <br>
+        <br>
+        <p>Location:</p>
+        <p>Dublin Region (Republic of Ireland) or remote work</p>
+        <br>
+        <p>&copy 2023 Muhammad Ali</p>
+    </footer>
 
-    <script src="script.js"></script>
+    <script src="static/script.js"></script>
 </body>
 
 </html>
