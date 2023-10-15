@@ -1,23 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    min-height: 100%;
-    font-family: 'Calibri';
-    color: rgb(26, 3, 100);
-    
+
+body {
+  min-height: 100%;
+  font-family: 'Calibri';
+  color: rgb(26, 3, 100);
+
 }
-a{
-    text-decoration: none;
-    cursor: pointer;
-    color: inherit;
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
 }
-.tabs{
+
+.tabs {
   overflow: hidden;
 }
-.tablink{
+
+.tablink {
   background-color: #f2f2f2;
   float: left;
   border: none;
@@ -26,7 +30,8 @@ a{
   padding: 14px 30px;
   transition: background-color 0.3s ease;
 }
-.tablink_details{
+
+.tablink_details {
   background-color: black;
   color: #ddd;
   float: left;
@@ -36,199 +41,285 @@ a{
   padding: 14px 120px;
   transition: background-color 0.3s ease;
 }
-.tablink:hover{
+
+.tablink:hover {
   background-color: #ddd;
 }
-.tablink::current{
-  background-color: #ddd  ;
+
+.tablink::current {
+  background-color: #ddd;
 }
-header{
+
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.banner{
+
+.banner {
   margin: 0em 10em;
 }
-.banner h2{
-  text-align: center; 
-  margin-bottom: 1em; 
-  background-color: #ddd; 
-  padding: 10em;
+
+.banner h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 3em;
 }
-.service_banner{
+
+.service_banner {
   margin: 1em 10em;
 }
-.service{
+
+.service {
   text-align: center;
 }
-.service_box{
+
+.service_box {
   display: flex;
 }
-.service h2{
-  margin: 1em 1em; 
+
+.service h2 {
+  margin: 1em 1em;
   padding: 1em;
 }
-.services{
-  margin: 5em 0em; 
-  display: flex; 
-  flex-direction: column; 
+
+.services {
+  margin: 5em 0em;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
-.service_block{
-  display: flex; 
+
+.service_block {
+  display: flex;
   align-items: center;
 }
-.service_block a{
+
+.service_block a {
   background-color: #ddd;
 }
-.sb_img{
-  width: 120px; 
+
+.sb_img {
+  width: 120px;
   margin: 15px;
 }
-.about_h{
-  margin: 1em 10em; 
+
+.about_h {
+  margin: 1em 10em;
   text-align: center;
 }
-.about_h h2{
-  margin-bottom: 1em; padding: 1em;
+
+.about_h h2 {
+  margin-bottom: 1em;
+  padding: 1em;
 }
-.about_content{
-  margin: 2em 15em; 
-  margin-bottom: 0em; 
+
+.about_content {
+  margin: 2em 15em;
+  margin-bottom: 0em;
   display: flex;
 }
-.about_content p{
-  margin: 0em 5em; 
-  font-weight: 600; 
+
+.about_content p {
+  margin: 0em 5em;
+  font-weight: 600;
   font-size: large;
 }
-.about_img{
-  display: flex; 
+
+.about_img {
+  display: flex;
   justify-content: right;
 }
-.about_img img{
-  width: 300px; 
+
+.about_img img {
+  width: 300px;
   margin-right: 1em;
 }
-.hook{
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  margin-bottom: 1em; 
+
+.hook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
   padding: 2em;
 }
-.hook button{
-  border: solid; 
-  border-radius: 1em; 
+
+.hook button {
+  border: solid;
+  border-radius: 1em;
   margin-top: 1em;
 }
-.dashboard{
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  background: #ddd; 
-  margin: 1em; 
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ddd;
+  margin: 1em;
   padding: 2em;
 }
-.dashboard h2, .dashboard p{
+
+.dashboard h2,
+.dashboard p {
   margin-top: 1em;
 }
-footer{
-  background-color: #ddd; 
+
+footer {
+  background-color: #ddd;
   padding: 1em 10em;
 }
-footer h2{
-  text-align: center; 
+
+footer h2 {
+  text-align: center;
   margin: 1em;
 }
-.linkedin{
-  display: flex; 
+
+.linkedin {
+  display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   margin-bottom: 1em;
 }
-.linkedin button{
-  border: solid; 
-  border-radius: 1em; 
+
+.linkedin button {
+  border: solid;
+  border-radius: 1em;
   margin-top: 1em;
 }
+
+.slider-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slide_buttons{
+  display: flex;
+  justify-content: center;
+}
+.fer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.slide-content{
+  margin: 2em 15em;
+  margin-bottom: 0em;
+  display: flex;
+}
+.slide-content div{
+  margin: 0em 5em;
+}
+
+.slide {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.slide img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+button {
+  cursor: pointer;
+}
+
 /* Mobile styles */
 @media screen and (max-width: 599px) {
-  header{
+  header {
     display: flex;
     flex-direction: column;
   }
-  .banner{
+
+  .banner {
     margin: 0em 0em;
   }
-  .banner h2{
-    text-align: center; 
-    margin-bottom: 1em; 
-    background-color: #ddd; 
+
+  .banner h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: #ddd;
     padding: 7em 0em;
   }
-  .service_banner{
+
+  .service_banner {
     margin: 1em 0em;
   }
-  .service_box{
+
+  .service_box {
     display: flex;
     flex-direction: column;
   }
-  .services{
+
+  .services {
     margin: 0em 0em;
   }
-  .service_block{
-    display: flex; 
+
+  .service_block {
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .about_content{
-    margin: 1em 2em; 
+
+  .about_content {
+    margin: 1em 2em;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  .hook{
+
+  .hook {
     text-align: center;
   }
+
   .tablink,
   .tablink_details {
-      padding: 14px 20px;
+    padding: 14px 20px;
   }
+
   .service h2,
   .about_h h2,
   .dashboard h2 {
-      text-align: center;
+    text-align: center;
   }
+
   .services,
   .about_content {
-      margin: 2em 0;
+    margin: 2em 0;
   }
-  .tableauPlaceholder, .dashboard{
+
+  .tableauPlaceholder,
+  .dashboard {
     display: none;
   }
+
   .about_content p {
-      margin: 0 0 1em;
-      font-weight: 600;
-      font-size: medium;
+    margin: 0 0 1em;
+    font-weight: 600;
+    font-size: medium;
   }
 
   .about_img img {
-      width: 100%;
-      margin-right: 0;
+    width: 100%;
+    margin-right: 0;
   }
 
   .hook button,
   .linkedin button {
-      margin-top: 1em;
+    margin-top: 1em;
   }
-  footer{
+
+  footer {
     padding: 1em 1em;
     text-align: center;
   }
-  #hid{
+
+  #hid {
     display: none;
   }
 }

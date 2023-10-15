@@ -12,10 +12,10 @@ function openTab(event, tabName) {
     event.currentTarget.className += " active";
   }
   
-  // Set the first tab as active by default
-  document.getElementsByClassName("tablink")[0].click();
+// Set the first tab as active by default
+document.getElementsByClassName("tablink")[0].click();
   
-  var slides = document.querySelectorAll('.slide');
+var slides = document.querySelectorAll('.slide');
 var currentSlide = 0;
 
 function showSlide(n) {
